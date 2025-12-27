@@ -1,0 +1,15 @@
+project_name         = "myproject"
+environment          = "dev"
+aws_region           = "us-east-1"
+enable_dns_hostnames = true
+enable_dns_support   = true
+vpc_cidr             = "10.0.0.0/16"
+public_subnet_cidrs  = ["10.0.1.0/24", "10.0.2.0/24"]
+private_subnet_cidrs = ["10.0.3.0/24", "10.0.4.0/24"]
+db_username          = "admin"
+db_name              = "webappdb"
+instance_class       = "db.t3.micro"
+allocated_storage    = 20
+engine_version       = "8.0"
+key_name             = "petclinic"
+instance_type        = "t3.micro"
